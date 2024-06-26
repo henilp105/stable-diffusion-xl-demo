@@ -354,10 +354,10 @@ with block:
                 <br/>
                 Source code of this space is on 
                 <a
-                  href="https://github.com/TonyLianLong/stable-diffusion-xl-demo"
+                  href="https://github.com/henilp105/stable-diffusion-xl-demo"
                   style="text-decoration: underline;"
                   target="_blank"
-                  >TonyLianLong/stable-diffusion-xl-demo</a>.
+                  >henilp105/stable-diffusion-xl-demo</a>.
               </p>
             </div>
         """
@@ -402,7 +402,7 @@ with block:
             with gr.Group(elem_id="share-btn-container"):
                 community_icon = gr.HTML(community_icon_html)
                 loading_icon = gr.HTML(loading_icon_html)
-                share_button = gr.Button("Share to community", elem_id="share-btn")
+                # share_button = gr.Button("Share to community", elem_id="share-btn")
 
         with gr.Accordion("Advanced settings", open=False):
         #    gr.Markdown("Advanced settings are temporarily unavailable")
@@ -454,7 +454,7 @@ with block:
             f"""
                 <div class="footer">
                     <p>
-                        This space uses {model_key_base} model{" with " + lcm_lora_id + " LCM LoRA" if enable_lcm else ""}. - Gradio Demo by 🤗 Hugging Face and <a style="text-decoration: underline;" href="https://tonylian.com/">Long (Tony) Lian</a> <br/>
+                        This space uses {model_key_base} model{" with " + lcm_lora_id + " LCM LoRA" if enable_lcm else ""}. - Gradio Demo by 🤗 Hugging Face and <a style="text-decoration: underline;" href="https://henilp105.github.io">Henil Panchal</a> <br/>
                     </p>
                 </div>
            """
